@@ -1,0 +1,29 @@
+# Команды для загрузки в GitHub
+# Выполните эти команды в PowerShell после установки Git
+
+# 1. Инициализация
+git init
+
+# 2. Добавить все файлы
+git add .
+
+# 3. Создать коммит
+git commit -m "Initial commit - FTC Inspire Portal"
+
+# 4. Подключить к вашему репозиторию
+git remote add origin https://github.com/nonberw/ftc-inspire-portal.git
+
+# 5. Переименовать ветку в main
+git branch -M main
+
+# 6. Загрузить код
+git push -u origin main
+
+# Если попросит логин/пароль:
+# Username: nonberw
+# Password: используйте Personal Access Token (не пароль!)
+# 
+# Создать токен: https://github.com/settings/tokens
+# Выберите scope: repo (все галочки)
+# Скопируйте токен и используйте как пароль
+
